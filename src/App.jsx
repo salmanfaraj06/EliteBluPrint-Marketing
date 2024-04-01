@@ -6,6 +6,7 @@ import TypewriterEffectDemo from "./components/test/typer";
 import CardHoverEffectDemo from "./components/test/card";
 import Footer from "./components/test/footer";
 import TryForFree from "./components/TryForFree";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <TypewriterEffectDemo />
       <StickyScrollRevealDemo />
       <CardHoverEffectDemo />
+
+      <Testimonials />
 
       <TryForFree />
       <Footer />
