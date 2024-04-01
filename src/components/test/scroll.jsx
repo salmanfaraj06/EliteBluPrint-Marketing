@@ -8,7 +8,13 @@ const content = [
       "Skip the frustration of complex design software! With EliteBlueprint, simply describe your dream floor plan in plain English and watch it come to life on screen. Effortlessly create professional-looking layouts in seconds, no technical expertise required.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--violet-500),var(--fuchsia-500))] flex items-center justify-center text-white">
-        Effortless Floor Plan Creation
+        <img
+          src="public/effortless.jpg" // Replace with actual image path
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="EliteBlueprint Effortless Floor Plan Creation"
+        />
       </div>
     ),
   },
@@ -19,7 +25,7 @@ const content = [
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <img
-          src="/floorplan-visualization.webp" // Replace with actual image path
+          src="public/realtime.jpg" // Replace with actual image path
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -34,7 +40,13 @@ const content = [
       "Elevate your floor plan with professional consultations from experienced architects. Connect seamlessly with qualified professionals through EliteBlueprint and get tailored advice to bring your vision to life. From initial layout suggestions to optimization strategies, our architects are here to empower your design journey.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--teal-500),var(--blue-500))] flex items-center justify-center text-white">
-        Expert Architect Consultations
+        <img
+          src="public/expert.jpg" // Replace with actual image path
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="EliteBlueprint professional consultations"
+        />
       </div>
     ),
   },
@@ -44,7 +56,13 @@ const content = [
       "EliteBlueprint offers a user-friendly interface that empowers anyone to create professional-looking floor plans. Don't let complex software hinder your creativity! Drag, drop, and customize elements with ease, bringing your dream space to life in minutes.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--purple-500),var(--pink-500))] flex items-center justify-center text-white">
-        Intuitive Interface, Powerful Results
+        <img
+          src="public/interface.jpg" // Replace with actual image path
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="user-friendly interface of EliteBlueprint"
+        />
       </div>
     ),
   },
