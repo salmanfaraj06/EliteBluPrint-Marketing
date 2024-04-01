@@ -38,7 +38,7 @@ function Testimonials() {
       className="center flex-col space-y-20 w-[80vw] mx-auto min-h-screen"
     >
       <h1 className="text-7xl font-semibold text-center font-space-grotesk mb-2">
-        Pricing
+        Testimonials
       </h1>
       <div className="center space-x-4">
         {data.map((item, index) => (

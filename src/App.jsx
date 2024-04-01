@@ -10,6 +10,7 @@ import Testimonials from "./components/Testimonials";
 import LovedByArchi from "./components/LovedByArchi";
 import UserFriendly from "./components/UserFriendly";
 import Hero from "./components/Hero";
+import DesignFaster from "./components/DesignFaster";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Navbar />
 
       <Hero />
+      <DesignFaster />
       <HeroScrollDemo />
       <TypewriterEffectDemo />
       <StickyScrollRevealDemo />
