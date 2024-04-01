@@ -11,6 +11,7 @@ function Hero() {
       </p>
       <a
         href="https://elitebluprint.live/"
+        target="_blank"
         className="bg-[#3887FD80] center space-x-3 p-3 px-5 rounded-full"
       >
         <img src={icon} alt="btn_icon" /> <span>Try It Now</span>
