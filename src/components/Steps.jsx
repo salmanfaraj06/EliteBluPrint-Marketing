@@ -60,7 +60,9 @@ function Steps() {
                 id={`image-${index}`}
                 src={item.img}
                 alt="image"
-                className={`cursor-pointer ease-out rounded-full ${
+                className={`${
+                  index === 2 && "-mt-10"
+                } cursor-pointer ease-out rounded-full ${
                   imageBackground === index && "box-shadow scale-110"
                 }`}
               />
