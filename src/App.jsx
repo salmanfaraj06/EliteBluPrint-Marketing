@@ -14,9 +14,8 @@ import DesignFaster from "./components/DesignFaster";
 
 function App() {
   return (
-    <div className="bg-[#070A0F] text-white">
+    <div className="bg-[#070A0F] text-white relative overflow-x-hidden">
       <Navbar />
-
       <Hero />
       <DesignFaster />
       <HeroScrollDemo />
@@ -30,6 +29,9 @@ function App() {
       <TryForFree />
 
       <Footer />
+
+      <div className="bg1 h-[300px] w-[800px] rotate-45 absolute top-[88vh] left-[-15vw] z-0 opacity-50" />
+      <div className="bg2 h-[1200px] w-[500px] rotate-[35deg] absolute top-[-10vh] right-[-10vh] z-0 opacity-50" />
     </div>
   );
 }
