@@ -19,9 +19,13 @@ const data = [
 function UserFriendly() {
   return (
     <div className="min-h-screen center flex-col">
-      
+      <h1 className="text-7xl font-semibold font-space-grotesk mb-2">
+        User Friendly and Simple
+      </h1>
+      <p className="text-2xl text-gray-400 mb-20">
+        One click to generate your desired house plans.
+      </p>
       <div className="center space-x-12">
-        {" "}
         {data.map((item, index) => (
           <div
             key={index}
