@@ -2,11 +2,7 @@ import { cn } from "../../utils/cn";
 import { motion, stagger, useAnimate, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
 
-export const TypewriterEffect = ({
-  words,
-  className,
-  cursorClassName,
-}) => {
+export const TypewriterEffect = ({ words, className, cursorClassName }) => {
   const wordsArray = words.map((word) => {
     return {
       ...word,
@@ -36,7 +32,7 @@ export const TypewriterEffect = ({
 
   const renderWords = () => {
     return (
-      <motion.div ref={scope} className="inline">
+      <motion.div ref={scope} className="inline  font-space-grotesk">
         {wordsArray.map((word, idx) => {
           return (
             <div key={`word-${idx}`} className="inline-block">
@@ -44,10 +40,7 @@ export const TypewriterEffect = ({
                 <motion.span
                   initial={{}}
                   key={`char-${index}`}
-                  className={cn(
-                    `dark:text-white text-black opacity-0 hidden`,
-                    word.className
-                  )}
+                  className={cn(`text-white opacity-0 hidden`, word.className)}
                 >
                   {char}
                 </motion.span>

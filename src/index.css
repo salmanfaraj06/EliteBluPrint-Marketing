@@ -8,6 +8,9 @@
   font-family: "Space Grotesk", sans-serif;
 }
 
+* {
+  scroll-behavior: smooth;
+}
 .gradient-border {
   width: 765px;
   height: 765px;

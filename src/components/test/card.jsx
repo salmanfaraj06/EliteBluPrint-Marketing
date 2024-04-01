@@ -1,13 +1,5 @@
 import { HoverEffect } from "../ui/card-hover-effect";
 
-function CardHoverEffectDemo() {
-  return (
-    <div className="max-w-5xl mx-auto px-8">
-      <h2 className="text-2xl md:text-5xl font-bold text-center text-blue-600 my-5">Pricing</h2>
-      <HoverEffect items={projects} />
-    </div>
-  );
-}
 export const projects = [
   {
     title: "Stripe",
@@ -46,5 +38,16 @@ export const projects = [
     link: "https://microsoft.com",
   },
 ];
+
+function CardHoverEffectDemo() {
+  return (
+    <div className="max-w-5xl mx-auto px-8 min-h-[110vh] center flex-col">
+      <h1 className="text-7xl font-semibold text-center font-space-grotesk mb-2">
+        Pricing
+      </h1>
+      <HoverEffect items={projects} />
+    </div>
+  );
+}
 
 export default CardHoverEffectDemo;
