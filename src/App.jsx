@@ -7,6 +7,8 @@ import CardHoverEffectDemo from "./components/test/card";
 import Footer from "./components/test/footer";
 import TryForFree from "./components/TryForFree";
 import Testimonials from "./components/Testimonials";
+import LovedByArchi from "./components/LovedByArchi";
+import UserFriendly from "./components/UserFriendly";
 
 function App() {
   return (
@@ -17,9 +19,11 @@ function App() {
       <StickyScrollRevealDemo />
       <CardHoverEffectDemo />
 
+      <UserFriendly />
+      <LovedByArchi />
       <Testimonials />
-
       <TryForFree />
+
       <Footer />
     </div>
   );

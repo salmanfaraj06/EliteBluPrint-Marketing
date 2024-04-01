@@ -8,6 +8,18 @@
   font-family: "Space Grotesk", sans-serif;
 }
 
+.gradient-border {
+  width: 765px;
+  height: 765px;
+  border-radius: 50%;
+  background: linear-gradient(to left, #070a0f, transparent);
+  border: 4px solid;
+  border-image: linear-gradient(to left, #070a0f, transparent) 1;
+  position: absolute;
+  top: -60vh;
+  left: 0;
+}
+
 @layer components {
   .center {
     @apply flex items-center justify-center;

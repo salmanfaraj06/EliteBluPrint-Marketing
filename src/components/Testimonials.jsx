@@ -21,7 +21,7 @@ const data = [
       "If you want to see what the future of software engineering will look like, try Cursor, created by the @anysphere team.",
   },
   {
-    pic: "",
+    pic: person2,
     name: "Logan Kilpatrick",
     role: "OpenAI",
     para1:
