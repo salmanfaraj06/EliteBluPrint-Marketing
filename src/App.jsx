@@ -11,11 +11,12 @@ import LovedByArchi from "./components/LovedByArchi";
 import UserFriendly from "./components/UserFriendly";
 import Hero from "./components/Hero";
 import DesignFaster from "./components/DesignFaster";
+import VideoComponent from "./components/video";
 import Steps from "./components/Steps";
 
 function App() {
   return (
-    <div className="bg-[#070A0F] text-white relative overflow-x-hidden">
+    <div className="bg-[#070A0F] text-white relative overflow-x-hidden ">
       <Navbar />
       <Hero />
       <DesignFaster />
@@ -27,6 +28,7 @@ function App() {
       <UserFriendly />
       <LovedByArchi />
       <Testimonials />
+      <VideoComponent />
       <TryForFree />
       <Footer />
       <div className="bg1 h-[300px] w-[800px] rotate-45 absolute top-[88vh] left-[-15vw] z-0 opacity-50" />
