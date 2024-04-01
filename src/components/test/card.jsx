@@ -41,7 +41,10 @@ export const projects = [
 
 function CardHoverEffectDemo() {
   return (
-    <div className="max-w-5xl mx-auto px-8 min-h-[110vh] center flex-col">
+    <div
+      id="price"
+      className="max-w-5xl mx-auto px-8 min-h-[110vh] center flex-col"
+    >
       <h1 className="text-7xl font-semibold text-center font-space-grotesk mb-2">
         Pricing
       </h1>

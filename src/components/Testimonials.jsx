@@ -33,27 +33,35 @@ const data = [
 
 function Testimonials() {
   return (
-    <div className="center space-x-4 w-[80vw] mx-auto min-h-screen">
-      {data.map((item, index) => (
-        <div
-          key={index}
-          className="bg-gradient-to-b from-[#101521] to-transparent rounded-3xl p-4 px-8 space-y-4"
-        >
-          <div className="flex items-center justify-between space-x-4">
-            <img src={item.pic} alt={item.name} className="flex-0" />
-            <div className="flex-1">
-              <h3>{item.name}</h3>
-              <p className="font-thin text-gray-400">{item.role}</p>
-            </div>
+    <div
+      id="testi"
+      className="center flex-col space-y-20 w-[80vw] mx-auto min-h-screen"
+    >
+      <h1 className="text-7xl font-semibold text-center font-space-grotesk mb-2">
+        Pricing
+      </h1>
+      <div className="center space-x-4">
+        {data.map((item, index) => (
+          <div
+            key={index}
+            className="bg-gradient-to-b from-[#101521] to-transparent rounded-3xl p-4 px-8 space-y-4"
+          >
+            <div className="flex items-center justify-between space-x-4">
+              <img src={item.pic} alt={item.name} className="flex-0" />
+              <div className="flex-1">
+                <h3>{item.name}</h3>
+                <p className="font-thin text-gray-400">{item.role}</p>
+              </div>
 
-            <img src={twitter} alt="twitter logo" className="flex-0" />
+              <img src={twitter} alt="twitter logo" className="flex-0" />
+            </div>
+            <div className="space-y-8">
+              <p>{item.para1}</p>
+              <p>{item.para2}</p>
+            </div>
           </div>
-          <div className="space-y-8">
-            <p>{item.para1}</p>
-            <p>{item.para2}</p>
-          </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }

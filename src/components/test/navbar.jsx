@@ -9,9 +9,15 @@ function navbar() {
           <span className="text-[#cccccc]">EliteBluPrint</span>
         </div>
         <div className="flex-1 center space-x-8">
-          <a href="#price">Pricing</a>
-          <a>Features </a>
-          <a>Testimonial</a>
+          <a href="#features" className="cursor-pointer">
+            Features
+          </a>
+          <a href="#price" className="cursor-pointer">
+            Pricing
+          </a>
+          <a href="#testi" className="cursor-pointer">
+            Testimonial
+          </a>
         </div>
       </div>
     </div>
