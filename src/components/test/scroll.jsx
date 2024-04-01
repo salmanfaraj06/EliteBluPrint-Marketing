@@ -51,7 +51,10 @@ const content = [
 ];
 function StickyScrollRevealDemo() {
   return (
-    <div className="p-10 ">
+    <div className="p-10 min-h-screen center flex-col space-y-8" id="features">
+      <h1 className="text-7xl font-semibold text-center font-space-grotesk mb-2">
+        Features
+      </h1>
       <StickyScroll content={content} />
     </div>
   );

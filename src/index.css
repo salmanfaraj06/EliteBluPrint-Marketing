@@ -8,6 +8,64 @@
   font-family: "Space Grotesk", sans-serif;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+.gradient-border {
+  width: 765px;
+  height: 765px;
+  border-radius: 50%;
+  background: linear-gradient(to left, #070a0f, transparent);
+  border: 4px solid;
+  border-image: linear-gradient(to left, #070a0f, transparent) 1;
+  position: absolute;
+  top: -60vh;
+  left: 0;
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 12px rgba(34, 78, 255, 0.8);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  position: fixed;
+  right: 0;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  background-color: #101820;
+  position: relative;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #224eff;
+  opacity: 0.8;
+  border-radius: 2px;
+  width: 0px;
+}
+
+.bg1 {
+  background: linear-gradient(
+    180deg,
+    transparent,
+    #3360a3c0 45%,
+    #3360a3c0 55%,
+    transparent
+  );
+}
+
+.bg2 {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #3360a3c0 45%,
+    #3360a3c0 55%,
+    transparent
+  );
+}
+
 @layer components {
   .center {
     @apply flex items-center justify-center;
