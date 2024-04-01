@@ -9,11 +9,14 @@ import TryForFree from "./components/TryForFree";
 import Testimonials from "./components/Testimonials";
 import LovedByArchi from "./components/LovedByArchi";
 import UserFriendly from "./components/UserFriendly";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div className="bg-[#070A0F] text-white">
       <Navbar />
+
+      <Hero />
       <HeroScrollDemo />
       <TypewriterEffectDemo />
       <StickyScrollRevealDemo />

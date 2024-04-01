@@ -22,17 +22,17 @@ function UserFriendly() {
       {data.map((item, index) => (
         <div
           key={index}
-          className="relative overflow-hidden flex flex-col items-start h-[56vh] w-[35vw] border border-[#243063] p-8 bg-[#101624] rounded-xl"
+          className="relative overflow-hidden flex flex-col items-start h-[60vh] w-[35vw] border border-[#243063] p-8 bg-[#101624] rounded-xl"
         >
           <img
             src={circle}
             alt=""
-            className="absolute top-[-10vh] right-[-5vw] opacity-20"
+            className="absolute top-[0vh] right-[0vw] opacity-20"
           />
           <img
             src={innercircle}
             alt=""
-            className="absolute top-[-10vh] right-[-5vw] opacity-20"
+            className="absolute top-[-.5vh] right-[-.5vw] opacity-50"
           />
           <div className="flex items-start space-x-4 z-20">
             <img src={item.pic} alt="logo" />
