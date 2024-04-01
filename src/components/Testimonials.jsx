@@ -3,32 +3,20 @@ import person2 from "../../public/person2.png";
 
 const data = [
   {
-    pic: person2,
-    name: "Logan Kilpatrick",
-    role: "OpenAI",
-    para1:
-      "I started using Cursor this morning, the AI-first Code Editor, and I am blown away. 🤯",
-    para2:
-      "If you want to see what the future of software engineering will look like, try Cursor, created by the @anysphere team.",
+    
+    name: "Zahee Basheer",
+    role: "Senior Quantity Surveyor, HIT Management Consultants, Qatar",
+    para1: "Elite Blueprint is a game-changer in the journey to designing a dream home. I'm amazed by how intuitive and user-friendly the platform is. With the power of AI, it's able to generate quality house plans in no time. Keep working on this and make changes accordingly based on latest trends.",
+
   },
   {
-    pic: person2,
-    name: "Logan Kilpatrick",
-    role: "OpenAI",
-    para1:
-      "I started using Cursor this morning, the AI-first Code Editor, and I am blown away. 🤯",
-    para2:
-      "If you want to see what the future of software engineering will look like, try Cursor, created by the @anysphere team.",
+   
+    name: "Salman Faris",
+    role: "Quantity Surveyor, Almana Group of companies, Saudi Arabia",
+    para1: "Elitebluprint emerges as a game-changer in the architectural platform landscape, offering users an easy and highly productive experience. With its innovative features and user-friendly interface, this application sets a new standard for architectural design platforms.",
+
   },
-  {
-    pic: person2,
-    name: "Logan Kilpatrick",
-    role: "OpenAI",
-    para1:
-      "I started using Cursor this morning, the AI-first Code Editor, and I am blown away. 🤯",
-    para2:
-      "If you want to see what the future of software engineering will look like, try Cursor, created by the @anysphere team.",
-  },
+  
 ];
 
 function Testimonials() {
@@ -47,17 +35,13 @@ function Testimonials() {
             className="bg-gradient-to-b from-[#101521] to-transparent rounded-3xl p-4 px-8 space-y-4"
           >
             <div className="flex items-center justify-between space-x-4">
-              <img src={item.pic} alt={item.name} className="flex-0" />
               <div className="flex-1">
                 <h3>{item.name}</h3>
                 <p className="font-thin text-gray-400">{item.role}</p>
               </div>
-
-              <img src={twitter} alt="twitter logo" className="flex-0" />
             </div>
             <div className="space-y-8">
               <p>{item.para1}</p>
-              <p>{item.para2}</p>
             </div>
           </div>
         ))}
