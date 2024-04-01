@@ -1,43 +1,26 @@
 import { HoverEffect } from "../ui/card-hover-effect";
 
-export const projects = [
+export const pricing = [
   {
-    title: "Stripe",
+    title: "Standard Tier ($50/month)",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+      "Ideal for Freelancers & Architects: This plan offers moderate monthly plan generation limits, perfect for individual users or small teams. Collaborate effectively with clients through features like client portals, shared project folders, and dedicated customer support.",
+    
   },
   {
-    title: "Netflix",
+    title: "Premium Tier ($80/month)",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+      "Caters to High-Volume Architects: Unleash your design potential with the highest plan generation limits. Optimize your workflow with premium collaboration tools, manage your clients effortlessly, and enjoy priority support from our expert team.",
+    
   },
   {
-    title: "Google",
+    title: "On-Demand Payment",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
-  },
-  {
-    title: "Meta",
-    description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
-  },
-  {
-    title: "Amazon",
-    description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
-  },
-  {
-    title: "Microsoft",
-    description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
+      "Flexible Access for Individual Users: Maintain accessibility for casual users with our pay-as-you-go option. The On-Demand Package offers 6 plan generations for a one-time fee of $20.",
+    
   },
 ];
+
 
 function CardHoverEffectDemo() {
   return (
@@ -48,7 +31,7 @@ function CardHoverEffectDemo() {
       <h1 className="text-7xl font-semibold text-center font-space-grotesk mb-2">
         Pricing
       </h1>
-      <HoverEffect items={projects} />
+      <HoverEffect items={pricing} />
     </div>
   );
 }

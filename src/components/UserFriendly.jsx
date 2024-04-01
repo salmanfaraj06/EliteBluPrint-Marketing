@@ -6,25 +6,20 @@ import innercircle from "../../public/innercircle.png";
 const data = [
   {
     pic: vs,
-    topic: "One-click migration",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat",
+    topic: "Architects - Streamline Your Workflow",
+    para: "Simplify floor plan creation, collaborate seamlessly with clients, and generate variations in seconds. Elevate your design process with EliteBlueprint.",
   },
   {
     pic: lock,
-    topic: "Keep your code private",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ",
+    topic: "Homeowners - Design Your Dream Home",
+    para: "Describe your dream layout in plain English and see it come to life on screen. Generate professional-looking floor plans in seconds with EliteBlueprint!",
   },
 ];
 
 function UserFriendly() {
   return (
     <div className="min-h-screen center flex-col">
-      <h1 className="text-7xl font-semibold font-space-grotesk mb-2">
-        User Friendly and Simple
-      </h1>
-      <p className="text-2xl text-gray-400 mb-20">
-        One click to generate your desired house plans.
-      </p>
+      
       <div className="center space-x-12">
         {" "}
         {data.map((item, index) => (

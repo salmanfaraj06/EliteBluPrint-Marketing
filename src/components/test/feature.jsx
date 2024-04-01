@@ -40,7 +40,7 @@ function feature() {
                 <div className="sm:self-stretch pl-8 sm:pl-5 flex-1">
                   <div className="flex flex-col items-start gap-3.5">
                     <Text size="lg" as="p" className="!text-white-A700">
-                      One-click migration
+                    Architects - Streamline Your Workflow
                     </Text>
                     <div className="self-stretch mb-7 pr-[18px]">
                       <Text as="p" className="!font-medium leading-6">
