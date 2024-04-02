@@ -7,7 +7,7 @@ function Hero() {
         The first text based floor plan generator
       </h1>
       <p className="text-2xl text-gray-400 mb-12">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          Design Your Dream Home in Minutes
       </p>
       <a
         href="https://elitebluprint.live/"
