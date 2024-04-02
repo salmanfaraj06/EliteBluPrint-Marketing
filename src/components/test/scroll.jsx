@@ -25,7 +25,7 @@ const content = [
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <img
-          src="public/realtime.jpg" // Replace with actual image path
+          src="realtime.jpg" // Replace with actual image path
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -41,7 +41,7 @@ const content = [
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--teal-500),var(--blue-500))] flex items-center justify-center text-white">
         <img
-          src="public/expert.jpg" // Replace with actual image path
+          src="expert.jpg" // Replace with actual image path
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -57,7 +57,7 @@ const content = [
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--purple-500),var(--pink-500))] flex items-center justify-center text-white">
         <img
-          src="public/interface.jpg" // Replace with actual image path
+          src="interface.jpg" // Replace with actual image path
           width={300}
           height={300}
           className="h-full w-full object-cover"
