@@ -9,7 +9,7 @@ const content = [
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--violet-500),var(--fuchsia-500))] flex items-center justify-center text-white">
         <img
-          src="public/effortless.jpg" // Replace with actual image path
+          src="effortless.jpg" // Replace with actual image path
           width={300}
           height={300}
           className="h-full w-full object-cover"
