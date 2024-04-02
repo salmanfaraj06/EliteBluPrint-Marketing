@@ -6,17 +6,14 @@ import step3 from "../../public/step3.png";
 const data = [
   {
     topic: "Describe your floor plan idea in simple text",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat consequat metu",
     img: step1,
   },
   {
     topic: "Generate ,View and Download Your Plans",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat consequat metu",
     img: step2,
   },
   {
     topic: "Connect with Reliable Architects",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat consequat metu",
     img: step3,
   },
 ];
@@ -49,10 +46,9 @@ function Steps() {
       <h1 className="text-7xl font-semibold font-space-grotesk mb-12">Steps</h1>
       {data.map((item, index) => (
         <div key={index} className="center">
-          <div className="flex space-x-32">
+          <div className="flex space-x-25">
             <div className="w-[40vw] space-y-4  ">
-              <h1 className="text-3xl">{item.topic}</h1>
-              <p className="opacity-45">{item.para}</p>
+              <h1 className="text-3xl ">{item.topic}</h1>
             </div>
 
             <div className="center flex-col">
@@ -65,7 +61,7 @@ function Steps() {
                 }`}
               />
               {index !== data.length - 1 && (
-                <hr className="border-none h-[25vh] box-shadow bg-[#3B82F6] w-[1px]" />
+                <hr className="border-none h-[20vh] box-shadow bg-[#3B82F6] w-[1px]" />
               )}
             </div>
           </div>

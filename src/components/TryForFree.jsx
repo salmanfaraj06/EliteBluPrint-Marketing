@@ -1,10 +1,9 @@
-import arrow from "../../public/arrow_head.svg";
+import logo from "../../public/logo.png";
 import icon from "../../public/button_icon.svg";
 
 function TryForFree() {
   return (
-    <div className="min-h-screen center flex-col space-y-12">
-      <img src={arrow} alt="arrow" />
+    <div className="h-[60vh] center flex-col space-y-12">
       <h1 className="text-7xl font-semibold font-space-grotesk">
         Try EliteBluPrint For Free
       </h1>
