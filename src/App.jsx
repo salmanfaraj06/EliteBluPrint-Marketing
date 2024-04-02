@@ -1,5 +1,5 @@
 import React from "react";
-import { HeroScrollDemo } from "./components/test/hero-animation";
+import { HeroScrollDemo } from "./components/hero-animation";
 import Navbar from "./components/test/navbar";
 import StickyScrollRevealDemo from "./components/test/scroll";
 import TypewriterEffectDemo from "./components/test/typer";
